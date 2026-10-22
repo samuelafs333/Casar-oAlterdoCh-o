@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casarão Alter do Chão | Aluguel por Temporada</title>
+    <meta name="description" content="Casa para temporada em Alter do Chão (Santarém-PA) para até 12 pessoas: 2 quartos + suíte, piscina, churrasqueira, Wi-Fi e garagem. A 5 min da praça. Fale com Luelba.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0088CC">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Casarão Alter do Chão | Aluguel por Temporada">
+    <meta property="og:description" content="Casa com piscina para até 12 pessoas, a 5 min da praça de Alter do Chão.">
+    <meta property="og:image" content="images/piscina-principal.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Montserrat, Playfair Display & Caveat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blueDark: '#005F8F',
+                            blue: '#0088CC',
+                            blueLight: '#38BDF8',
+                            blueIce: '#F0F9FF',
+                            gold: '#F5A623',
+                            goldDark: '#D98200',
+                            goldLight: '#FEF3C7',
+                            dark: '#0F172A',
+                            slate: '#334155',
+                            soft: '#F8FAFC',
+                            border: '#E2E8F0'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Montserrat"', 'sans-serif'],
+                        serif: ['"Playfair Display"', 'serif'],
+                        script: ['"Caveat"', 'cursive']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Polaroid Card Styling */
+        .polaroid-card {
+            background: #FFFFFF;
+            padding: 14px 14px 22px 14px;
+            border-radius: 18px;
+            border: 1px solid #E2E8F0;
+            box-shadow: 0 12px 28px -8px rgba(15, 23, 42, 0.08);
+            transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+        }
+        .polaroid-card:hover {
+            transform: translateY(-6px) rotate(0deg) !important;
+            box-shadow: 0 22px 40px -10px rgba(0, 136, 204, 0.18);
+            border-color: #BAE6FD;
+            z-index: 10;
+        }
+        /* Fita adesiva decorativa no topo da Polaroid */
+        .polaroid-tape {
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%) rotate(-2deg);
+            width: 85px;
+            height: 24px;
+            background: rgba(254, 243, 199, 0.78);
+            border: 1px solid rgba(245, 166, 35, 0.25);
+            backdrop-filter: blur(2px);
+            border-radius: 4px;
+            z-index: 20;
+            pointer-events: none;
+        }
+        .tilt-left { transform: rotate(-1.2deg); }
+        .tilt-right { transform: rotate(1.2deg); }
+        .tilt-center { transform: rotate(0.4deg); }
+
+        .btn-tapajos {
+            background: linear-gradient(135deg, #0088CC 0%, #005F8F 100%);
+            color: #ffffff;
+            transition: all 0.25s ease;
+        }
+        .btn-tapajos:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px -6px rgba(0, 136, 204, 0.4);
+        }
+        .tab-btn.active {
+            background-color: #0088CC;
+            color: #FFFFFF;
+            border-color: #0088CC;
+            box-shadow: 0 6px 16px -3px rgba(0, 136, 204, 0.35);
+        }
+    </style>
+</head>
+<body class="bg-brand-soft text-brand-slate font-sans antialiased selection:bg-brand-blue selection:text-white">
+
+    <!-- Barra Superior -->
+    <div class="bg-brand-dark text-white text-xs py-2.5 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
+            <div class="flex items-center justify-center gap-2">
+                <i class="fa-solid fa-location-dot text-brand-gold"></i>
+                <span class="font-medium text-slate-200">
+                    Rua Lago Verde, 49 &bull; Alter do Chão, Santarém - PA &bull; A 5 min caminhando pra praça!
+                </span>
+            </div>
+            <div class="flex items-center gap-4 font-semibold">
+                <a href="https://wa.me/5593991382531?text=Ol%C3%A1%20Luelba!%20Vim%20pelo%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20Casar%C3%A3o%20Alter%20do%20Ch%C3%A3o." target="_blank" rel="noopener" class="hover:text-brand-gold transition flex items-center gap-1.5">
+                    <i class="fa-brands fa-whatsapp text-emerald-400 text-sm"></i> (93) 99138-2531 (Luelba)
+                </a>
+                <span class="hidden md:inline text-white/30">|</span>
+                <a href="https://instagram.com/casaraoalterdochao" target="_blank" rel="noopener" class="hidden md:flex items-center gap-1.5 hover:text-brand-gold transition">
+                    <i class="fa-brands fa-instagram text-pink-400 text-sm"></i> @casaraoalterdochao
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cabeçalho Clean -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-brand-border shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            
+            <!-- Logo Vetorial Oficial -->
+            <a href="#" class="flex items-center gap-3.5 group">
+                <div class="w-14 h-14 rounded-full bg-white border-2 border-slate-900 p-0.5 shadow-sm group-hover:scale-105 transition-transform flex-shrink-0 flex items-center justify-center">
+                    <svg viewBox="0 0 160 160" class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="80" cy="80" r="76" fill="#ffffff" stroke="#111827" stroke-width="3.5"/>
+                        <circle cx="80" cy="80" r="71" fill="none" stroke="#6B7280" stroke-width="0.8"/>
+                        <!-- Sol Dourado Radiante -->
+                        <circle cx="74" cy="64" r="24" fill="none" stroke="#F5A623" stroke-width="6.5"/>
+                        <g stroke="#F5A623" stroke-width="2.2" stroke-linecap="round">
+                            <line x1="74" y1="32" x2="74" y2="24" />
+                            <line x1="59" y1="36" x2="54" y2="29" />
+                            <line x1="47" y1="46" x2="40" y2="41" />
+                            <line x1="41" y1="59" x2="33" y2="57" />
+                            <line x1="89" y1="36" x2="94" y2="29" />
+                            <line x1="101" y1="46" x2="108" y2="41" />
+                        </g>
+                        <!-- Telhado e Janela Colonial de 4 quadrados -->
+                        <polygon points="76,39 38,69 46,73 76,48 106,73 114,69" fill="#111827"/>
+                        <rect x="70" y="66" width="5.5" height="5.5" fill="#111827" rx="0.6"/>
+                        <rect x="77.5" y="66" width="5.5" height="5.5" fill="#111827" rx="0.6"/>
+                        <rect x="70" y="73.5" width="5.5" height="5.5" fill="#111827" rx="0.6"/>
+                        <rect x="77.5" y="73.5" width="5.5" height="5.5" fill="#111827" rx="0.6"/>
+                        <!-- Ondas na base -->
+                        <path d="M 38,93 Q 76,84 114,93 Q 85,98 38,93 Z" fill="#111827"/>
+                        <path d="M 45,98 Q 80,92 118,97 Q 85,102 45,98 Z" fill="#111827"/>
+                        <!-- Palmeira Tropical à direita -->
+                        <path d="M 98,95 Q 107,80 108,59 Q 105,80 103,95 Z" fill="#111827"/>
+                        <path d="M 108,59 Q 94,51 84,58 Q 97,57 108,59 Z" fill="#111827"/>
+                        <path d="M 108,59 Q 102,45 117,44 Q 110,52 108,59 Z" fill="#111827"/>
+                        <path d="M 108,59 Q 121,50 129,60 Q 118,61 108,59 Z" fill="#111827"/>
+                        <path d="M 108,59 Q 119,66 125,77 Q 115,71 108,59 Z" fill="#111827"/>
+                        <!-- Texto CASARÃO ALTER DO CHÃO -->
+                        <text x="80" y="119" font-family="'Montserrat', sans-serif" font-size="15" font-weight="800" text-anchor="middle" fill="#111827" letter-spacing="1.5">CASARÃO</text>
+                        <text x="80" y="131" font-family="'Montserrat', sans-serif" font-size="7.5" font-weight="700" text-anchor="middle" fill="#111827" letter-spacing="1">ALTER DO CHÃO</text>
+                    </svg>
+                </div>
+                <div>
+                    <span class="block font-serif text-xl sm:text-2xl font-bold text-brand-dark leading-none">Casarão</span>
+                    <span class="text-[10px] tracking-[0.22em] text-brand-blue font-bold uppercase mt-1 block">Alter do Chão</span>
+                </div>
+            </a>
+
+            <!-- Navegação Desktop -->
+            <nav class="hidden md:flex items-center gap-7 text-xs font-bold uppercase tracking-wider text-slate-600">
+                <a href="#inicio" class="hover:text-brand-blue transition">A Casa</a>
+                <a href="#album" class="hover:text-brand-blue transition">Álbum dos 5 Espaços</a>
+                <a href="#comodidades" class="hover:text-brand-blue transition">Comodidades</a>
+                <a href="#localizacao" class="hover:text-brand-blue transition">Localização</a>
+                <a href="#contato" class="hover:text-brand-blue transition">Contato</a>
+            </nav>
+
+            <!-- Botão Contato Direto -->
+            <div class="flex items-center gap-3">
+                <a href="https://wa.me/5593991382531?text=Ol%C3%A1%20Luelba!%20Gostaria%20de%20consultar%20a%20disponibilidade%20do%20Casar%C3%A3o%20Alter%20do%20Ch%C3%A3o." target="_blank" rel="noopener" class="btn-tapajos hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs uppercase tracking-wider font-bold shadow-sm">
+                    <i class="fa-brands fa-whatsapp text-base"></i>
+                    <span>Falar com Luelba</span>
+                </a>
+                <button id="mobileMenuBtn" class="md:hidden p-2 text-slate-700 hover:text-brand-blue" aria-label="Abrir Menu">
+                    <i class="fa-solid fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Menu Mobile -->
+        <div id="mobileMenu" class="hidden md:hidden bg-white border-b border-brand-border px-6 py-5 flex flex-col gap-3 text-center">
+            <a href="#inicio" onclick="closeMobileMenu()" class="text-xs font-bold uppercase tracking-wider text-slate-700 py-1.5">A Casa</a>
+            <a href="#album" onclick="closeMobileMenu()" class="text-xs font-bold uppercase tracking-wider text-slate-700 py-1.5">Álbum dos 5 Espaços</a>
+            <a href="#comodidades" onclick="closeMobileMenu()" class="text-xs font-bold uppercase tracking-wider text-slate-700 py-1.5">Comodidades</a>
+            <a href="#localizacao" onclick="closeMobileMenu()" class="text-xs font-bold uppercase tracking-wider text-slate-700 py-1.5">Localização</a>
+            <a href="#contato" onclick="closeMobileMenu()" class="text-xs font-bold uppercase tracking-wider text-slate-700 py-1.5">Falar com a Proprietária</a>
+            <a href="https://wa.me/5593991382531?text=Ol%C3%A1%20Luelba!%20Vim%20pelo%20site%20do%20Casar%C3%A3o%20Alter%20do%20Ch%C3%A3o." target="_blank" class="btn-tapajos py-3 rounded-full text-xs font-bold uppercase tracking-wider mt-1 flex items-center justify-center gap-2">
+                <i class="fa-brands fa-whatsapp text-base"></i> (93) 99138-2531 &bull; Luelba
+            </a>
+        </div>
+    </header>
+
+    <!-- Seção Hero Fiel ao Cartaz Oficial -->
+    <section id="inicio" class="relative bg-white pt-10 sm:pt-14 pb-0 overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            
+            <!-- Selo Superior -->
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-blueIce text-brand-blue border border-sky-200 text-xs font-bold uppercase tracking-widest mb-5">
+                <i class="fa-solid fa-sun text-brand-gold"></i>
+                <span>Caribe Amazônico &bull; Santarém - PA</span>
+            </div>
+
+            <!-- Título e Subtítulo Manuscrito Fiel ao Cartaz -->
+            <h1 class="font-serif text-3xl sm:text-5xl md:text-6xl font-normal tracking-[0.08em] text-slate-900 uppercase leading-none">
+                ALUGO POR TEMPORADA
+            </h1>
+            <div class="font-script text-5xl sm:text-7xl md:text-8xl text-brand-blue font-bold -mt-2 sm:-mt-3 mb-5 select-none">
+                Alter do Chão
+            </div>
+
+            <!-- Subtítulo Real Completo -->
+            <p class="max-w-3xl mx-auto text-sm sm:text-base md:text-lg text-slate-600 font-medium leading-relaxed mb-6">
+                Casa confortável próxima ao <strong class="text-slate-800">Lago Verde</strong> e <strong class="text-slate-800">5 min caminhando pra praça!</strong> Conta com 2 quartos e 1 suíte; 2 banheiros sociais, sala de estar, sala de jantar, cozinha equipada, churrasqueira, piscina, área ampla para redes; garagem e wi-fi.
+            </p>
+
+            <!-- Destaque Capacidade 12 Pessoas -->
+            <div class="inline-flex items-center gap-2.5 px-5 py-2 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-sm sm:text-base font-extrabold shadow-sm mb-8">
+                <i class="fa-solid fa-users text-brand-gold"></i>
+                <span>Capacidade para 12 pessoas no conforto dos quartos.</span>
+            </div>
+
+            <!-- Botões Hero -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-3.5 max-w-md mx-auto mb-10">
+                <a href="#album" class="btn-tapajos w-full sm:w-auto px-7 py-3.5 rounded-full text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 shadow-md">
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <span>Ver os 5 Espaços</span>
+                </a>
+                <a href="#contato" class="w-full sm:w-auto px-7 py-3.5 rounded-full bg-white border-2 border-brand-blue text-brand-blue hover:bg-brand-blueIce text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 transition">
+                    <i class="fa-brands fa-whatsapp text-emerald-500 text-base"></i>
+                    <span>Falar com Luelba</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Onda Azul Orgânica do Cartaz -->
+        <div class="w-full overflow-hidden leading-none">
+            <svg class="relative block w-full h-10 sm:h-16" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,25 C280,110 520,-35 820,45 C1020,95 1120,25 1200,15 L1200,120 L0,120 Z" fill="#0088CC"></path>
+                <path d="M0,55 C310,125 560,0 860,70 C1040,110 1130,50 1200,40 L1200,120 L0,120 Z" fill="#F8FAFC"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- 2. GALERIA CRIATIVA E SIMPLES DOS 5 ESPAÇOS DA CASA (ESTILO POLAROID / ÁLBUM DE VIAGEM) -->
+    <section id="album" class="py-14 bg-brand-soft">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Cabeçalho da Galeria + Botão Simples para Carregar Pasta Local -->
+            <div class="flex flex-col lg:flex-row lg:items-end justify-between mb-8 gap-6">
+                <div>
+                    <span class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-brand-blue bg-white border border-sky-200 px-3.5 py-1.5 rounded-full shadow-sm">
+                        <i class="fa-solid fa-images text-brand-gold"></i> Álbum de Viagem &bull; 5 Espaços
+                    </span>
+                    <h2 class="font-serif text-2xl sm:text-4xl font-bold text-slate-900 mt-3">
+                        Conheça Cada Cantinho do Casarão
+                    </h2>
+                    <p class="text-slate-500 text-sm mt-1">
+                        Filtre pelos 5 ambientes abaixo ou clique em qualquer Polaroid para ampliar a foto em tela cheia.
+                    </p>
+                </div>
+
+                <!-- (ferramenta de upload local removida na versão de lançamento) -->
+                <div class="hidden">
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 bg-white p-3 rounded-2xl border border-brand-border shadow-sm">
+                    <div class="text-xs text-slate-600 pr-2">
+                        <strong class="block text-slate-800"><i class="fa-solid fa-folder-open text-brand-gold mr-1"></i> Visualizando no navegador?</strong>
+                        <span>Selecione as fotos da sua pasta para exibi-las agora:</span>
+                    </div>
+                    <label class="cursor-pointer btn-tapajos px-4 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 whitespace-nowrap shadow-sm">
+                        <i class="fa-solid fa-upload"></i>
+                        <span>Carregar Fotos da Minha Pasta</span>
+                        <input type="file" id="bulkFolderInput" multiple accept="image/*" class="hidden" onchange="handleBulkFiles(this.files)">
+                    </label>
+                </div>
+                </div>
+            </div>
+
+            <!-- Feedback de Fotos Carregadas -->
+            <div id="uploadStatusBanner" class="hidden mb-6 p-3.5 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-semibold flex items-center justify-between">
+                <span id="uploadStatusText"><i class="fa-solid fa-circle-check text-emerald-600 mr-1.5"></i> Fotos aplicadas com sucesso!</span>
+                <button onclick="document.getElementById('uploadStatusBanner').classList.add('hidden')" class="text-emerald-700 hover:text-emerald-900 font-bold px-2">&times;</button>
+            </div>
+
+            <!-- Abas de Filtro dos 5 Espaços -->
+            <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2 mb-10" id="filterTabs">
+                <button onclick="filterAlbum('all')" data-tab="all" class="tab-btn active px-4 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider bg-white text-slate-700 border border-brand-border transition">
+                    <i class="fa-solid fa-grip mr-1.5"></i> Todos os Espaços (10)
+                </button>
+                <button onclick="filterAlbum('churrasqueira')" data-tab="churrasqueira" class="tab-btn px-4 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider bg-white text-slate-700 border border-brand-border hover:border-brand-blue transition">
+                    1. Área + Churrasqueira
+                </button>
+                <button onclick="filterAlbum('piscina')" data-tab="piscina" class="tab-btn px-4 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider bg-white text-slate-700 border border-brand-border hover:border-brand-blue transition">
+                    2. Piscina (3)
+                </button>
+                <button onclick="filterAlbum('cozinha')" data-tab="cozinha" class="tab-btn px-4 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider bg-white text-slate-700 border border-brand-border hover:border-brand-blue transition">
+                    3. Área + Cozinha
+                </button>
+                <button onclick="filterAlbum('sala')" data-tab="sala" class="tab-btn px-4 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider bg-white text-slate-700 border border-brand-border hover:border-brand-blue transition">
+                    4. Sala + Sala de Jantar (2)
+                </button>
+                <button onclick="filterAlbum('quartos')" data-tab="quartos" class="tab-btn px-4 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider bg-white text-slate-700 border border-brand-border hover:border-brand-blue transition">
+                    5. Quartos & Suíte (3)
+                </button>
+            </div>
+
+            <!-- Grid de Cartões Polaroid -->
+            <div id="polaroidGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pt-2">
+                <!-- Os cartões são renderizados dinamicamente pelo script abaixo com suporte total aos arquivos locais e ilustrações SVG -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Seção de Comodidades Detalhadas -->
+    <section id="comodidades" class="py-16 bg-white border-y border-brand-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand-blue bg-brand-blueIce px-3.5 py-1.5 rounded-full">
+                    Inventário Completo
+                </span>
+                <h2 class="font-serif text-2xl sm:text-3xl font-bold text-slate-900 mt-3">
+                    Tudo o que o Casarão Oferece
+                </h2>
+                <p class="text-slate-500 text-sm mt-1">
+                    Casa pronta para receber até 12 pessoas com privacidade, frescor e lazer completo.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+                <div class="p-5 rounded-2xl bg-brand-soft border border-brand-border flex items-start gap-3.5">
+                    <div class="w-10 h-10 rounded-xl bg-brand-blueIce text-brand-blue flex items-center justify-center flex-shrink-0 text-lg">
+                        <i class="fa-solid fa-bed"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-slate-800 text-sm">2 Quartos + 1 Suíte</h3>
+                        <p class="text-xs text-slate-500 mt-0.5">Climatizados com ar-condicionado e camas confortáveis.</p>
+                    </div>
+                </div>
+
+                <div class="p-5 rounded-2xl bg-brand-soft border border-brand-border flex items-start gap-3.5">
+                    <div class="w-10 h-10 rounded-xl bg-brand-blueIce text-brand-blue flex items-center justify-center flex-shrink-0 text-lg">
+                        <i class="fa-solid fa-shower"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-slate-800 text-sm">2 Banheiros Sociais</h3>
+                        <p class="text-xs text-slate-500 mt-0.5">Mais o banheiro privativo da suíte e chuveirão externo.</p>
+                    </div>
+                </div>
+
+                <div class="p-5 rounded-2xl bg-brand-soft border border-brand-border flex items-start gap-3.5">
+                    <div class="w-10 h-10 rounded-xl bg-brand-blueIce text-brand-blue flex items-center justify-center flex-shrink-0 text-lg">
+                        <i class="fa-solid fa-water-ladder"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-slate-800 text-sm">Piscina Privativa</h3>
+                        <p class="text-xs text-slate-500 mt-0.5">Pátio ensolarado com bancos brancos, espreguiçadeira e ducha.</p>
+                    </div>
+                </div>
+
+                <div class="p-5 rounded-2xl bg-brand-soft border border-brand-border flex items-start gap-3.5">
+                    <div class="w-10 h-10 rounded-xl bg-brand-blueIce text-brand-blue flex items-center justify-center flex-shrink-0 text-lg">
+                        <i class="fa-solid fa-fire-burner"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-slate-800 text-sm">Churrasqueira</h3>
+                        <p class="text-xs text-slate-500 mt-0.5">Churrasqueira de tijolinho à vista com pia e bancada de apoio.</p>
+                    </div>
+                </div>
+
+                <div class="p-5 rounded-2xl bg-brand-soft border border-brand-border flex items-start gap-3.5">
+                    <div class="w-10 h-10 rounded-xl bg-brand-blueIce text-brand-blue flex items-center justify-center flex-shrink-0 text-lg">
+                        <i class="fa-solid fa-kitchen-set"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-slate-800 text-sm">Cozinha Equipada</h3>
+                        <p class="text-xs text-slate-500 mt-0.5">Utensílios domésticos e mesa rústica de madeira na varanda.</p>
+                    </div>
+                </div>
+
+                <div class="p-5 rounded-2xl bg-brand-soft border border-brand-border flex items-start gap-3.5">
+                    <div class="w-10 h-10 rounded-xl bg-brand-blueIce text-brand-blue flex items-center justify-center flex-shrink-0 text-lg">
+                        <i class="fa-solid fa-couch"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-slate-800 text-sm">Sala de Estar & Jantar</h3>
+                        <p class="text-xs text-slate-500 mt-0.5">Forro em madeira nobre, estante com TV, sofás e mesa para 6 lugares.</p>
+                    </div>
+                </div>
+
+                <div class="p-5 rounded-2xl bg-brand-soft border border-brand-border flex items-start gap-3.5">
+                    <div class="w-10 h-10 rounded-xl bg-brand-blueIce text-brand-blue flex items-center justify-center flex-shrink-0 text-lg">
+                        <i class="fa-solid fa-umbrella-beach"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-slate-800 text-sm">Ampla Área para Redes</h3>
+                        <p class="text-xs text-slate-500 mt-0.5">Varanda coberta super ventilada com armadores de rede.</p>
+                    </div>
+                </div>
+
+                <div class="p-5 rounded-2xl bg-brand-soft border border-brand-border flex items-start gap-3.5">
+                    <div class="w-10 h-10 rounded-xl bg-brand-blueIce text-brand-blue flex items-center justify-center flex-shrink-0 text-lg">
+                        <i class="fa-solid fa-wifi"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-slate-800 text-sm">Garagem & Wi-Fi</h3>
+                        <p class="text-xs text-slate-500 mt-0.5">Internet rápida gratuita e estacionamento fechado no imóvel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. LOCALIZAÇÃO EXATA NO GOOGLE MAPS (ATUALIZADO) -->
+    <section id="localizacao" class="py-16 bg-brand-soft">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-10">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand-blue bg-white border border-sky-200 px-3.5 py-1.5 rounded-full shadow-sm">
+                    <i class="fa-solid fa-location-dot text-brand-gold mr-1"></i> Endereço Oficial
+                </span>
+                <h2 class="font-serif text-2xl sm:text-4xl font-bold text-slate-900 mt-3">
+                    Localização Privilegiada em Alter do Chão
+                </h2>
+                <p class="text-slate-600 text-sm sm:text-base mt-1 font-medium">
+                    Rua Lago Verde, 49 - Alter do Chão, Santarém - PA, 68060-050
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+                
+                <!-- Card de Informações de Proximidade -->
+                <div class="lg:col-span-5 bg-white rounded-3xl p-6 sm:p-8 border border-brand-border shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="inline-flex items-center gap-2 text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full mb-4">
+                            <i class="fa-solid fa-person-walking"></i> Faça tudo caminhando
+                        </div>
+                        <h3 class="font-serif text-2xl font-bold text-slate-900 mb-3">
+                            Na Rua do Lago Verde e pertinho da Praça!
+                        </h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            O Casarão fica situado literalmente na <strong>Rua Lago Verde, nº 49</strong>, garantindo sossego e acesso rápido a pé aos principais atrativos da vila:
+                        </p>
+
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3.5 p-3.5 rounded-2xl bg-brand-soft border border-brand-border">
+                                <div class="w-9 h-9 rounded-xl bg-brand-blue text-white flex items-center justify-center flex-shrink-0 text-sm">
+                                    <i class="fa-solid fa-map-pin"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800 text-xs sm:text-sm">Endereço Exato</h4>
+                                    <p class="text-xs text-slate-600 mt-0.5">R. Lago Verde, 49 - Alter do Chão, Santarém - PA, 68060-050</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3.5 p-3.5 rounded-2xl bg-brand-soft border border-brand-border">
+                                <div class="w-9 h-9 rounded-xl bg-emerald-600 text-white flex items-center justify-center flex-shrink-0 text-sm">
+                                    <i class="fa-solid fa-water"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800 text-xs sm:text-sm">Próximo ao Lago Verde</h4>
+                                    <p class="text-xs text-slate-600 mt-0.5">A poucos passos das águas calmas e cristalinas do Lago Verde.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3.5 p-3.5 rounded-2xl bg-brand-soft border border-brand-border">
+                                <div class="w-9 h-9 rounded-xl bg-brand-gold text-white flex items-center justify-center flex-shrink-0 text-sm">
+                                    <i class="fa-solid fa-clock"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800 text-xs sm:text-sm">5 min caminhando pra Praça</h4>
+                                    <p class="text-xs text-slate-600 mt-0.5">Acesso rápido à orla, travessia para a Ilha do Amor, restaurantes e mercados.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 pt-5 border-t border-brand-border flex flex-col sm:flex-row gap-3">
+                        <a href="https://www.google.com/maps/search/?api=1&query=R.+Lago+Verde,+49+-+Alter+do+Ch%C3%A3o,+Santar%C3%A9m+-+PA,+68060-050" target="_blank" rel="noopener" class="btn-tapajos flex-1 py-3 px-4 rounded-xl text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 text-center shadow-sm">
+                            <i class="fa-solid fa-diamond-turn-right"></i>
+                            <span>Abrir no Google Maps</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Moldura Responsiva com o Iframe Exato Fornecido -->
+                <div class="lg:col-span-7 bg-white rounded-3xl p-3 border border-brand-border shadow-sm flex flex-col min-h-[420px]">
+                    <div class="w-full h-full min-h-[400px] rounded-2xl overflow-hidden relative flex-1">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d271.6734691805169!2d-54.948308180378696!3d-2.5033771909776443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x928852628546fec7%3A0x216cc842931c5ea7!2sR.%20Lago%20Verde%2C%2049%20-%20Alter%20do%20Ch%C3%A3o%2C%20Santar%C3%A9m%20-%20PA%2C%2068060-050!5e0!3m2!1spt-BR!2sbr!4v1792648460227!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0; min-height: 420px;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Localização do Casarão Alter do Chão na Rua Lago Verde, 49"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. APENAS CONTATO COM A PROPRIETÁRIA LUELBA (SEM SIMULADOR DE RESERVA) -->
+    <section id="contato" class="py-16 bg-white border-t border-brand-border">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-brand-blueIce via-white to-amber-50/60 rounded-3xl p-8 sm:p-12 border border-sky-200 shadow-sm text-center relative overflow-hidden">
+                
+                <!-- Ícone de Atendimento Direto -->
+                <div class="w-16 h-16 rounded-2xl bg-brand-blue text-white mx-auto flex items-center justify-center text-2xl shadow-md mb-5">
+                    <i class="fa-brands fa-whatsapp text-3xl"></i>
+                </div>
+
+                <span class="text-xs font-bold uppercase tracking-widest text-brand-blue bg-white border border-sky-200 px-4 py-1.5 rounded-full">
+                    Atendimento Direto com a Proprietária
+                </span>
+
+                <h2 class="font-serif text-2xl sm:text-4xl font-bold text-slate-900 mt-4">
+                    Fale com a Proprietária Luelba
+                </h2>
+
+                <p class="max-w-xl mx-auto text-slate-600 text-sm sm:text-base mt-3 leading-relaxed">
+                    Tire suas dúvidas, consulte datas disponíveis para sua temporada e combine sua estadia diretamente com a proprietária <strong>Luelba</strong>, com toda atenção e sem taxas de intermediários.
+                </p>
+
+                <!-- Cartões de Contato Direto -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto mt-8">
+                    
+                    <!-- Botão WhatsApp Luelba -->
+                    <a href="https://wa.me/5593991382531?text=Ol%C3%A1%20Luelba!%20Vim%20pelo%20site%20do%20Casar%C3%A3o%20Alter%20do%20Ch%C3%A3o%20e%20gostaria%20de%20consultar%20disponibilidade." target="_blank" rel="noopener" class="flex items-center gap-4 p-4 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white text-left transition shadow-md group">
+                        <div class="w-12 h-12 rounded-xl bg-white/15 flex items-center justify-center text-2xl flex-shrink-0 group-hover:scale-110 transition-transform">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <span class="block text-[11px] uppercase tracking-wider font-bold text-emerald-100">WhatsApp Oficial</span>
+                            <strong class="block text-base sm:text-lg font-extrabold">(93) 99138-2531</strong>
+                            <span class="block text-xs text-emerald-100">Falar com Luelba agora &rarr;</span>
+                        </div>
+                    </a>
+
+                    <!-- Botão Instagram -->
+                    <a href="https://instagram.com/casaraoalterdochao" target="_blank" rel="noopener" class="flex items-center gap-4 p-4 rounded-2xl bg-white hover:bg-slate-50 text-slate-800 border border-brand-border text-left transition shadow-sm group">
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-amber-500 via-pink-500 to-purple-600 text-white flex items-center justify-center text-2xl flex-shrink-0 group-hover:scale-110 transition-transform">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div>
+                            <span class="block text-[11px] uppercase tracking-wider font-bold text-slate-400">Instagram Oficial</span>
+                            <strong class="block text-sm sm:text-base font-extrabold text-slate-900">@casaraoalterdochao</strong>
+                            <span class="block text-xs text-brand-blue font-semibold">Seguir e ver novidades &rarr;</span>
+                        </div>
+                    </a>
+
+                </div>
+
+                <!-- Resumo Rápido -->
+                <div class="mt-8 pt-6 border-t border-sky-200/70 flex flex-wrap items-center justify-center gap-6 text-xs font-semibold text-slate-600">
+                    <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-500"></i> Até 12 Hóspedes</span>
+                    <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-500"></i> 2 Quartos + 1 Suíte</span>
+                    <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-500"></i> Piscina & Churrasqueira</span>
+                    <span class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-500"></i> Rua Lago Verde, 49</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé Oficial -->
+    <footer class="bg-slate-900 text-slate-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center border-b border-slate-800 pb-8">
+                
+                <!-- Logo no Rodapé -->
+                <div class="flex items-center gap-3.5 justify-center md:justify-start">
+                    <div class="w-13 h-13 rounded-full bg-white p-0.5 flex-shrink-0 shadow">
+                        <svg viewBox="0 0 160 160" class="w-12 h-12" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="80" cy="80" r="76" fill="#ffffff" stroke="#111827" stroke-width="4"/>
+                            <circle cx="74" cy="64" r="24" fill="none" stroke="#F5A623" stroke-width="6.5"/>
+                            <polygon points="76,39 38,69 46,73 76,48 106,73 114,69" fill="#111827"/>
+                            <rect x="70" y="66" width="5.5" height="5.5" fill="#111827"/>
+                            <rect x="77.5" y="66" width="5.5" height="5.5" fill="#111827"/>
+                            <rect x="70" y="73.5" width="5.5" height="5.5" fill="#111827"/>
+                            <rect x="77.5" y="73.5" width="5.5" height="5.5" fill="#111827"/>
+                            <path d="M 38,93 Q 76,84 114,93 Q 85,98 38,93 Z" fill="#111827"/>
+                            <text x="80" y="120" font-family="'Montserrat', sans-serif" font-size="15" font-weight="800" text-anchor="middle" fill="#111827">CASARÃO</text>
+                            <text x="80" y="132" font-family="'Montserrat', sans-serif" font-size="7.5" font-weight="700" text-anchor="middle" fill="#111827">ALTER DO CHÃO</text>
+                        </svg>
+                    </div>
+                    <div class="text-left">
+                        <h4 class="font-serif text-lg font-bold text-white">Casarão Alter do Chão</h4>
+                        <p class="text-xs text-slate-400">R. Lago Verde, 49 - Alter do Chão, Santarém - PA</p>
+                    </div>
+                </div>
+
+                <!-- Contato Central -->
+                <div class="text-center">
+                    <p class="text-xs uppercase tracking-wider text-slate-400 font-bold">Proprietária Luelba</p>
+                    <a href="https://wa.me/5593991382531" target="_blank" rel="noopener" class="text-base font-extrabold text-brand-gold hover:underline mt-0.5 inline-flex items-center gap-1.5">
+                        <i class="fa-brands fa-whatsapp text-emerald-400"></i> (93) 99138-2531
+                    </a>
+                </div>
+
+                <!-- Links Sociais -->
+                <div class="flex justify-center md:justify-end gap-3">
+                    <a href="https://wa.me/5593991382531" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-slate-800 hover:bg-emerald-600 text-white flex items-center justify-center transition" aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                    </a>
+                    <a href="https://instagram.com/casaraoalterdochao" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-slate-800 hover:bg-pink-600 text-white flex items-center justify-center transition" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram text-lg"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="pt-6 text-center text-xs text-slate-500">
+                &copy; Casarão Alter do Chão (@casaraoalterdochao) &bull; Aluguel por Temporada em Alter do Chão - PA.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="https://wa.me/5593991382531?text=Ol%C3%A1%20Luelba!%20Vim%20pelo%20site%20do%20Casar%C3%A3o%20Alter%20do%20Ch%C3%A3o." target="_blank" rel="noopener" class="fixed bottom-5 right-5 z-40 flex items-center gap-2.5 bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-3 rounded-full shadow-xl border-2 border-white transition transform hover:scale-105">
+        <i class="fa-brands fa-whatsapp text-2xl"></i>
+        <span class="text-xs font-extrabold hidden sm:inline">Falar com Luelba</span>
+    </a>
+
+    <style>
+        /* Pilha de fotos (efeito de fotos empilhadas com as beiradas aparecendo) */
+        .photo-stack { position: relative; }
+        .photo-stack .stack-layer {
+            position: absolute; inset: 0; border-radius: 0.75rem; overflow: hidden;
+            background: #fff; border: 4px solid #fff;
+            box-shadow: 0 6px 16px -4px rgba(15,23,42,0.25);
+            transition: transform 0.4s cubic-bezier(0.16,1,0.3,1);
+        }
+        .photo-stack .stack-layer img { width: 100%; height: 100%; object-fit: cover; }
+        .photo-stack .layer-2 { transform: rotate(-6deg) translate(-10px, 4px); }
+        .photo-stack .layer-3 { transform: rotate(5deg) translate(10px, 2px); }
+        .polaroid-card:hover .photo-stack .layer-2 { transform: rotate(-10deg) translate(-22px, 6px); }
+        .polaroid-card:hover .photo-stack .layer-3 { transform: rotate(9deg) translate(22px, 4px); }
+        .lb-nav {
+            position: absolute; top: 50%; transform: translateY(-50%);
+            width: 42px; height: 42px; border-radius: 9999px;
+            background: rgba(255,255,255,0.9); color: #0F172A;
+            display: flex; align-items: center; justify-content: center;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.3); transition: background 0.2s;
+        }
+        .lb-nav:hover { background: #F5A623; color: #fff; }
+        .lb-nav.hidden { display: none; }
+        .lb-thumb { width: 64px; height: 48px; border-radius: 8px; overflow: hidden; flex-shrink: 0; border: 2px solid transparent; opacity: 0.6; cursor: pointer; }
+        .lb-thumb.active { border-color: #0088CC; opacity: 1; }
+        .lb-thumb img { width: 100%; height: 100%; object-fit: cover; }
+    </style>
+
+    <!-- Modal Lightbox para Ampliar Fotos -->
+    <div id="lightboxModal" class="fixed inset-0 z-50 hidden bg-slate-950/90 backdrop-blur-sm flex items-center justify-center p-4" onclick="closeLightbox(event)">
+        <div class="relative max-w-4xl w-full bg-white rounded-3xl overflow-hidden shadow-2xl border border-slate-200" onclick="event.stopPropagation()">
+            <div class="flex items-center justify-between px-5 py-3.5 border-b border-slate-100 bg-white">
+                <div>
+                    <span id="lightboxBadge" class="text-[10px] font-bold uppercase tracking-widest text-brand-blue block">Espaço do Casarão</span>
+                    <h3 id="lightboxTitle" class="font-serif text-lg font-bold text-slate-900">Título da Foto</h3>
+                </div>
+                <div class="flex items-center gap-2">
+                    <label class="hidden">
+                        <i class="fa-solid fa-folder-open"></i> Trocar Foto
+                        <input type="file" id="singleCardFileInput" accept="image/*" class="hidden" onchange="handleSingleCardFile(this.files)">
+                    </label>
+                    <button onclick="closeLightbox()" class="w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center font-bold text-lg">&times;</button>
+                </div>
+            </div>
+            <div class="relative bg-slate-900 flex items-center justify-center max-h-[70vh] overflow-hidden">
+                <img id="lightboxImg" src="" alt="Visualização ampliada" class="max-h-[70vh] w-auto object-contain">
+                <button id="lbPrev" onclick="stepLightbox(-1)" class="lb-nav left-3" aria-label="Foto anterior"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="lbNext" onclick="stepLightbox(1)" class="lb-nav right-3" aria-label="Próxima foto"><i class="fa-solid fa-chevron-right"></i></button>
+                <span id="lbCounter" class="absolute bottom-3 left-1/2 -translate-x-1/2 bg-slate-900/70 text-white text-[11px] font-bold px-3 py-1 rounded-full"></span>
+            </div>
+            <div id="lbThumbs" class="flex gap-2 px-5 pt-3 bg-white overflow-x-auto"></div>
+            <div class="px-5 py-3 bg-white flex items-center justify-between text-xs text-slate-500">
+                <span id="lightboxDesc">Descrição do ambiente</span>
+                <span id="lightboxFilename" class="font-mono text-[11px] text-slate-400"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script do Álbum Polaroid, Associação Automática de Arquivos e Lightbox -->
+    <script>
+        // Menu Mobile
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+        function closeMobileMenu() { mobileMenu.classList.add('hidden'); }
+
+        // Ilustrações SVG Temáticas Super Charmosas (Caso aberto no preview online sem os arquivos locais)
+        function createCharmingSvgDataUri(theme, label, fileHint) {
+            const palettes = {
+                churrasqueira: { bg1: '#FEF3C7', bg2: '#FDE68A', accent: '#D97706', icon: '🔥 Varanda & Churrasqueira' },
+                piscina:       { bg1: '#E0F2FE', bg2: '#BAE6FD', accent: '#0284C7', icon: '🏊 Piscina Privativa' },
+                cozinha:       { bg1: '#FEF9C3', bg2: '#FDE047', accent: '#CA8A04', icon: '🍽️ Área + Cozinha' },
+                sala:          { bg1: '#F1F5F9', bg2: '#E2E8F0', accent: '#334155', icon: '🛋️ Sala & Jantar' },
+                quartos:       { bg1: '#F3E8FF', bg2: '#E9D5FF', accent: '#7E22CE', icon: '🛏️ Quartos & Suíte' }
+            };
+            const p = palettes[theme] || palettes.piscina;
+            const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+                <defs>
+                    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                        <stop offset="0%" stop-color="${p.bg1}"/>
+                        <stop offset="100%" stop-color="${p.bg2}"/>
+                    </linearGradient>
+                </defs>
+                <rect width="600" height="450" fill="url(#g)"/>
+                <circle cx="490" cy="95" r="55" fill="#F5A623" opacity="0.25"/>
+                <path d="M0,360 Q150,320 300,360 T600,350 L600,450 L0,450 Z" fill="#ffffff" opacity="0.65"/>
+                <rect x="60" y="65" width="480" height="310" rx="22" fill="#ffffff" opacity="0.88" stroke="${p.accent}" stroke-width="2" stroke-dasharray="6,6"/>
+                <text x="300" y="175" font-family="Montserrat, sans-serif" font-size="22" font-weight="800" fill="${p.accent}" text-anchor="middle">${label}</text>
+                <text x="300" y="215" font-family="Montserrat, sans-serif" font-size="14" font-weight="600" fill="#475569" text-anchor="middle">Arquivo: ${fileHint}</text>
+                <rect x="170" y="250" width="260" height="42" rx="21" fill="${p.accent}"/>
+                <text x="300" y="276" font-family="Montserrat, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Clique para escolher ou ampliar</text>
+            </svg>`;
+            return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+        }
+
+        // Lista Oficial dos 10 Cartões Polaroid com as fotos reais (pasta images/)
+        const photo = (id, category, spaceBadge, title, caption, file, tilt) =>
+            ({ id, category, spaceBadge, title, caption, primaryFile: 'images/' + file, fallbackFile: 'images/' + file, tilt });
+        const polaroidItems = [
+            photo('card-1', 'churrasqueira', '1. Área + Churrasqueira', 'Churrasqueira & Área da Piscina', 'Churrasqueira de tijolinho com pia de apoio, integrada à área da piscina.', 'churrasqueira-area-piscina.jpg', 'tilt-left'),
+            photo('card-2', 'piscina', '2. Piscina', 'Piscina Principal', 'Piscina privativa com deck e sombra refrescante da palmeira.', 'piscina-principal.jpg', 'tilt-center'),
+            photo('card-3', 'piscina', '2. Piscina', 'Água Cristalina & Solarium', 'Piscina com degraus de acesso e área murada com total privacidade.', 'piscina-02.jpg', 'tilt-right'),
+            photo('card-4', 'piscina', '2. Piscina', 'Deck & Chuveirão Externo', 'Pátio amplo da piscina com ducha para se refrescar ao voltar do Lago Verde.', 'piscina-03.jpg', 'tilt-left'),
+            photo('card-5', 'cozinha', '3. Área + Cozinha', 'Cozinha & Área Coberta', 'Varanda coberta integrada à cozinha equipada, com mesa grande de madeira.', 'cozinha-area-coberta.jpg', 'tilt-right'),
+            photo('card-6', 'sala', '4. Sala + Sala de Jantar', 'Sala de Jantar', 'Mesa para refeições em família e integração direta com a varanda.', 'sala-de-jantar.jpg', 'tilt-center'),
+            photo('card-7', 'sala', '4. Sala + Sala de Jantar', 'Sala de Estar com TV', 'Ambiente aconchegante com forro de madeira, sofás e estante com TV.', 'sala.jpg', 'tilt-left'),
+            photo('card-8', 'quartos', '5. Quartos & Suíte', 'Suíte Confortável', 'Suíte climatizada com banheiro privativo, pronta para o seu descanso.', 'suite.jpg', 'tilt-right'),
+            photo('card-9', 'quartos', '5. Quartos & Suíte', 'Quarto 1', 'Quarto arejado e climatizado com ar-condicionado.', 'quarto-1.jpg', 'tilt-center'),
+            photo('card-10', 'quartos', '5. Quartos & Suíte', 'Quarto 2', 'Quarto com ar-condicionado split e janela colonial de madeira.', 'quarto-2.jpg', 'tilt-left')
+        ];
+
+        let currentFilter = 'all';
+        let activeLightboxCardId = null;
+
+        // Inicializa cada cartão com a tentativa de carregar _2.jpg -> .jpg -> SVG Temático
+        polaroidItems.forEach(item => {
+            item.svgPlaceholder = createCharmingSvgDataUri(item.category, item.title, item.primaryFile);
+            item.customBlobUrl = null;
+        });
+
+        // Grupos: piscina, salas e quartos viram uma pilha; os demais ficam individuais.
+        // A primeira foto do grupo é a capa (principal / foto 01).
+        const GROUPS = {
+            piscina: { title: 'Piscina', caption: 'Piscina privativa com deck, palmeira, solarium e chuveirão externo.', order: ['card-2', 'card-3', 'card-4'] },
+            sala:    { title: 'Sala & Sala de Jantar', caption: 'Sala de estar com TV e sala de jantar integrada à varanda.', order: ['card-7', 'card-6'] },
+            quartos: { title: 'Quartos & Suíte', caption: '2 quartos + 1 suíte climatizados, com conforto para 12 pessoas.', order: ['card-8', 'card-9', 'card-10'] }
+        };
+
+        function buildEntries(list) {
+            const entries = [];
+            const done = new Set();
+            list.forEach(item => {
+                const g = GROUPS[item.category];
+                if (!g) { entries.push({ key: item.id, items: [item], title: item.title, caption: item.caption, badge: item.spaceBadge, tilt: item.tilt }); return; }
+                if (done.has(item.category)) return;
+                done.add(item.category);
+                const items = g.order.map(id => polaroidItems.find(i => i.id === id)).filter(Boolean);
+                entries.push({ key: item.category, items, title: g.title, caption: g.caption, badge: item.spaceBadge, tilt: items[0].tilt });
+            });
+            return entries;
+        }
+
+        let galleryEntries = [];
+
+        function renderPolaroidGrid() {
+            const grid = document.getElementById('polaroidGrid');
+            grid.innerHTML = '';
+
+            const filtered = currentFilter === 'all'
+                ? polaroidItems
+                : polaroidItems.filter(i => i.category === currentFilter);
+            galleryEntries = buildEntries(filtered);
+
+            galleryEntries.forEach((entry, entryIdx) => {
+                const cover = entry.items[0];
+                const isStack = entry.items.length > 1;
+                const card = document.createElement('div');
+                card.className = `polaroid-card ${entry.tilt} cursor-pointer group flex flex-col justify-between`;
+                card.onclick = () => openLightbox(entryIdx, 0);
+
+                const layers = isStack ? entry.items.slice(1, 3).map((it, i) => `
+                    <div class="stack-layer layer-${i + 2}"><img src="${encodeURI(it.primaryFile)}" alt="" loading="lazy"></div>`).reverse().join('') : '';
+
+                card.innerHTML = `
+                    <div class="polaroid-tape"></div>
+                    <div>
+                        <div class="${isStack ? 'photo-stack' : ''} relative aspect-[4/3] w-full mb-3.5 ${isStack ? 'mt-2 mx-auto w-[92%]' : ''}">
+                            ${layers}
+                            <div class="relative w-full h-full rounded-xl overflow-hidden bg-slate-100 border ${isStack ? 'border-4 border-white shadow-lg' : 'border-slate-200/80'}">
+                                <img id="img-${cover.id}"
+                                     src="${encodeURI(cover.primaryFile)}"
+                                     alt="${entry.title} - Casarão Alter do Chão" loading="lazy"
+                                     data-stage="fallback"
+                                     data-svg="${cover.svgPlaceholder}"
+                                     onerror="handleImgFallback(this)"
+                                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                                <div class="absolute top-3 left-3 bg-white/95 backdrop-blur-sm text-brand-dark text-[11px] font-extrabold px-3 py-1 rounded-full shadow-sm">
+                                    ${entry.badge}
+                                </div>
+                                ${isStack ? `<div class="absolute top-3 right-3 bg-brand-gold text-white text-[11px] font-extrabold px-2.5 py-1 rounded-full shadow-sm flex items-center gap-1"><i class="fa-solid fa-layer-group"></i> ${entry.items.length} fotos</div>` : ''}
+                                <div class="absolute bottom-2.5 right-2.5 bg-slate-900/75 text-white text-[11px] font-semibold px-2.5 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1">
+                                    <i class="fa-solid fa-magnifying-glass-plus"></i> ${isStack ? 'Abrir álbum' : 'Ampliar'}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="px-1">
+                            <div class="flex items-center justify-between gap-2">
+                                <h3 class="font-serif text-lg font-bold text-slate-900 group-hover:text-brand-blue transition">${entry.title}</h3>
+                                <span class="font-script text-xl text-brand-blue font-bold">Alter do Chão</span>
+                            </div>
+                            <p class="text-xs text-slate-500 mt-1 leading-relaxed">${entry.caption}</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-3 pt-2.5 border-t border-slate-100 px-1 flex items-center justify-between text-[11px] text-slate-400">
+                        <span class="truncate max-w-[200px]"><i class="fa-regular fa-image mr-1 text-brand-gold"></i>Casarão Alter do Chão</span>
+                        <span class="text-brand-blue font-bold group-hover:underline">${isStack ? `Ver ${entry.items.length} fotos` : 'Ver foto'} &rarr;</span>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // Tenta carregar _2.jpg -> se não achar tenta sem _2.jpg -> se não achar usa SVG temático
+        window.handleImgFallback = function(imgEl) {
+            const stage = imgEl.getAttribute('data-stage');
+            if (stage === 'primary') {
+                imgEl.setAttribute('data-stage', 'fallback');
+                imgEl.src = imgEl.getAttribute('data-fallback');
+            } else if (stage === 'fallback') {
+                imgEl.setAttribute('data-stage', 'svg');
+                imgEl.src = imgEl.getAttribute('data-svg');
+            }
+        };
+
+        // Filtro por abas
+        window.filterAlbum = function(category) {
+            currentFilter = category;
+            document.querySelectorAll('#filterTabs .tab-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-tab') === category);
+            });
+            renderPolaroidGrid();
+        };
+
+        // Normaliza nomes de arquivo para associação inteligente
+        function normalizeName(str) {
+            return str.toLowerCase()
+                .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                .replace(/_2/g, '')
+                .replace(/\.[^/.]+$/, '')
+                .replace(/[^a-z0-9]/g, '');
+        }
+
+        // Associação em lote quando o usuário seleciona fotos da pasta
+        window.handleBulkFiles = function(fileList) {
+            if (!fileList || fileList.length === 0) return;
+            let matchedCount = 0;
+
+            Array.from(fileList).forEach(file => {
+                const normUploaded = normalizeName(file.name);
+                const match = polaroidItems.find(item => {
+                    return normalizeName(item.primaryFile) === normUploaded ||
+                           normalizeName(item.fallbackFile) === normUploaded;
+                });
+
+                if (match) {
+                    match.customBlobUrl = URL.createObjectURL(file);
+                    matchedCount++;
+                }
+            });
+
+            // Se os nomes forem diferentes, preenche na ordem
+            if (matchedCount === 0) {
+                Array.from(fileList).slice(0, polaroidItems.length).forEach((file, idx) => {
+                    polaroidItems[idx].customBlobUrl = URL.createObjectURL(file);
+                    matchedCount++;
+                });
+            }
+
+            renderPolaroidGrid();
+            const banner = document.getElementById('uploadStatusBanner');
+            const text = document.getElementById('uploadStatusText');
+            text.innerHTML = `<i class="fa-solid fa-circle-check text-emerald-600 mr-1.5"></i> ${matchedCount} foto(s) da sua pasta foram carregadas nos cartões Polaroid!`;
+            banner.classList.remove('hidden');
+        };
+
+        // Lightbox Modal com navegação entre todas as fotos do grupo
+        let lbEntry = null, lbIndex = 0;
+        window.openLightbox = function(entryIdx, photoIdx) {
+            lbEntry = galleryEntries[entryIdx];
+            if (!lbEntry) return;
+            const thumbs = document.getElementById('lbThumbs');
+            const multi = lbEntry.items.length > 1;
+            thumbs.innerHTML = multi ? lbEntry.items.map((it, i) =>
+                `<div class="lb-thumb" onclick="showLightboxPhoto(${i})"><img src="${encodeURI(it.primaryFile)}" alt="${it.title}"></div>`).join('') : '';
+            thumbs.classList.toggle('hidden', !multi);
+            ['lbPrev', 'lbNext', 'lbCounter'].forEach(id => document.getElementById(id).classList.toggle('hidden', !multi));
+            showLightboxPhoto(photoIdx || 0);
+            document.getElementById('lightboxModal').classList.remove('hidden');
+        };
+
+        window.showLightboxPhoto = function(i) {
+            const n = lbEntry.items.length;
+            lbIndex = (i + n) % n;
+            const item = lbEntry.items[lbIndex];
+            document.getElementById('lightboxBadge').textContent = item.spaceBadge;
+            document.getElementById('lightboxTitle').textContent = item.title;
+            document.getElementById('lightboxDesc').textContent = item.caption;
+            document.getElementById('lightboxFilename').textContent = '';
+            document.getElementById('lightboxImg').src = encodeURI(item.primaryFile);
+            document.getElementById('lbCounter').textContent = `${lbIndex + 1} / ${n}`;
+            document.querySelectorAll('#lbThumbs .lb-thumb').forEach((t, k) => t.classList.toggle('active', k === lbIndex));
+        };
+
+        window.stepLightbox = function(d) { if (lbEntry) showLightboxPhoto(lbIndex + d); };
+
+        window.closeLightbox = function(e) {
+            document.getElementById('lightboxModal').classList.add('hidden');
+            activeLightboxCardId = null;
+        };
+
+        // Trocar foto individualmente dentro do Lightbox
+        window.handleSingleCardFile = function(files) {
+            if (!files || !files[0] || !activeLightboxCardId) return;
+            const item = polaroidItems.find(i => i.id === activeLightboxCardId);
+            if (!item) return;
+
+            item.customBlobUrl = URL.createObjectURL(files[0]);
+            document.getElementById('lightboxImg').src = item.customBlobUrl;
+            renderPolaroidGrid();
+        };
+
+        // Fechar modal com ESC
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeLightbox();
+            if (document.getElementById('lightboxModal').classList.contains('hidden')) return;
+            if (e.key === 'ArrowLeft') stepLightbox(-1);
+            if (e.key === 'ArrowRight') stepLightbox(1);
+        });
+
+        // Renderiza os cartões ao abrir a página
+        renderPolaroidGrid();
+    </script>
+</body>
+</html>
